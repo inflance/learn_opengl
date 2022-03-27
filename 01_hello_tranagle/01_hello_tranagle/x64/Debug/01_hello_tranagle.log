@@ -1,0 +1,19 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(01_hello_tranagle.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+glfw3.lib(init.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(init.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(window.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(window.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(input.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(input.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(context.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_init.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_init.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_monitor.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_monitor.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_time.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_time.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_thread.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_thread.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(monitor.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(monitor.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(vulkan.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(vulkan.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_window.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_window.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_joystick.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_joystick.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(wgl_context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(wgl_context.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(egl_context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(egl_context.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(osmesa_context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(osmesa_context.obj)”或在“D:\learn_opengl\01_hello_tranagle\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+LINK : warning LNK4098: 默认库“MSVCRTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  01_hello_tranagle.vcxproj -> D:\learn_opengl\01_hello_tranagle\x64\Debug\02_hello_tranagle.exe
