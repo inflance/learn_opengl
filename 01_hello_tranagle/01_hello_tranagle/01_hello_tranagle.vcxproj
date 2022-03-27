@@ -24,7 +24,7 @@
     <ProjectGuid>{cf820bf5-61d7-4aa7-9ab4-22808caf3305}</ProjectGuid>
     <RootNamespace>My01hellotranagle</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>02_hello_tranagle</ProjectName>
+    <ProjectName>01_hello_tranagle</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -126,6 +126,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>D:\learn_opengl\01_hello_tranagle\include\GLFW\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/NODEFAULTLIB:MSVCRTD %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -147,14 +148,27 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>D:\learn_opengl\01_hello_tranagle\include\GLFW\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/NODEFAULTLIB:MSVCRTD %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\include\glad\src\glad.c" />
+    <ClCompile Include="src\practice\Practice2.cpp" />
+    <ClCompile Include="src\practice\Practice3.cpp" />
+    <ClCompile Include="src\practice\Practice1.cpp" />
+    <ClCompile Include="src\FirstRectangle.cpp" />
+    <ClCompile Include="src\FirstTriangle.cpp" />
     <ClCompile Include="src\main.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)include\GLFW\include\;$(SolutionDir)include\GLAD\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)include\GLFW\include\;$(SolutionDir)include\GLAD\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\practice\Practice2.h" />
+    <ClInclude Include="src\practice\Practice3.h" />
+    <ClInclude Include="src\practice\Practice1.h" />
+    <ClInclude Include="src\FirstRectangle.h" />
+    <ClInclude Include="src\FirstTriangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
